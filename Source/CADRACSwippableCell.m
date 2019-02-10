@@ -11,9 +11,12 @@
 #import "UIColor+CADRACSwippableCellAdditions.h"
 #import "UIView+CADRACSwippableCellAdditions.h"
 
-#import <ReactiveCocoa/ReactiveCocoa.h>
+@import ReactiveObjC;
 
-@interface CADRACSwippableCell () <UIGestureRecognizerDelegate>
+@interface CADRACSwippableCell () <UIGestureRecognizerDelegate>{
+    BOOL canSnapshottingView;
+}
+
 
 @property (nonatomic, strong) RACSubject *revealViewSignal;
 @property (nonatomic, strong) UIView *contentSnapshotView;
@@ -49,62 +52,66 @@
 - (void)setupView
 {
     self.revealViewSignal = [RACSubject subject];
+    canSnapshottingView = false;
     
     UIPanGestureRecognizer *panGesture = [[UIPanGestureRecognizer alloc] initWithTarget:self action:nil];
     panGesture.delegate = self;
     
+    __weak CADRACSwippableCell *weakSelf = self;
+    
     RACSignal *gestureSignal = [panGesture rac_gestureSignal],
-              *beganOrChangedSignal = [gestureSignal filter:^BOOL(UIGestureRecognizer *gesture) {
+    *beganOrChangedSignal = [gestureSignal filter:^BOOL(UIGestureRecognizer *gesture) {
         return gesture.state == UIGestureRecognizerStateChanged || gesture.state == UIGestureRecognizerStateBegan;
     }],
-              *endedOrCancelledSignal = [gestureSignal filter:^BOOL(UIGestureRecognizer *gesture) {
+    *endedOrCancelledSignal = [gestureSignal filter:^BOOL(UIGestureRecognizer *gesture) {
         return gesture.state == UIGestureRecognizerStateEnded || gesture.state == UIGestureRecognizerStateCancelled;
     }];
     
-    RAC(self, contentSnapshotView.center) = [beganOrChangedSignal map:^id(id value) {
-        return [NSValue valueWithCGPoint:[self centerPointForTranslation:[panGesture translationInView:self]]];
+    RAC(weakSelf, contentSnapshotView.center) = [beganOrChangedSignal map:^id(id value) {
+        return [NSValue valueWithCGPoint:[weakSelf centerPointForTranslation:[panGesture translationInView:weakSelf]]];
     }];
     
     [beganOrChangedSignal subscribeNext:^(UIPanGestureRecognizer *panGesture) {
-        [self.contentView addSubview:self.revealView];
-        [self.contentView addSubview:self.contentSnapshotView];
+        [weakSelf.contentView addSubview:weakSelf.revealView];
+        [weakSelf.contentView addSubview:weakSelf.contentSnapshotView];
         
-        [panGesture setTranslation:CGPointZero inView:self];
+        [panGesture setTranslation:CGPointZero inView:weakSelf];
     }];
     
     [[endedOrCancelledSignal filter:^BOOL(UIPanGestureRecognizer *gestureRecognizer) {
-        return fabsf(CGRectGetMinX(self.contentSnapshotView.frame)) >= CGRectGetWidth(self.revealView.frame)/2 ||
-               [self shouldShowRevealViewForVelocity:[gestureRecognizer velocityInView:self]];
+        return fabs(CGRectGetMinX(weakSelf.contentSnapshotView.frame)) >= CGRectGetWidth(weakSelf.revealView.frame)/2 ||
+        [weakSelf shouldShowRevealViewForVelocity:[gestureRecognizer velocityInView:weakSelf]];
     }] subscribeNext:^(id x) {
-        [self showRevealViewAnimated:YES];
+        [weakSelf showRevealViewAnimated:YES];
     }];
     
     [[endedOrCancelledSignal filter:^BOOL(UIPanGestureRecognizer *gestureRecognizer) {
-        return fabsf(CGRectGetMinX(self.contentSnapshotView.frame)) < CGRectGetWidth(self.revealView.frame)/2 ||
-               [self shouldHideRevealViewForVelocity:[gestureRecognizer velocityInView:self]];
+        return fabs(CGRectGetMinX(weakSelf.contentSnapshotView.frame)) < CGRectGetWidth(weakSelf.revealView.frame)/2 ||
+        [weakSelf shouldHideRevealViewForVelocity:[gestureRecognizer velocityInView:weakSelf]];
     }] subscribeNext:^(id x) {
-        [self hideRevealViewAnimated:YES];
+        [weakSelf hideRevealViewAnimated:YES];
     }];
     
-    [[RACSignal merge:@[RACObserve(self, allowedDirection), RACObserve(self, revealView)]] subscribeNext:^(id x) {
-        [self setNeedsLayout];
+    [[RACSignal merge:@[RACObserve(weakSelf, allowedDirection), RACObserve(weakSelf, revealView)]] subscribeNext:^(id x) {
+        [weakSelf setNeedsLayout];
     }];
     
     [[self rac_prepareForReuseSignal] subscribeNext:^(id x) {
-        [self.contentSnapshotView removeFromSuperview];
-        self.contentSnapshotView = nil;
+        [weakSelf.contentSnapshotView removeFromSuperview];
+        weakSelf.contentSnapshotView = nil;
         
-        [self.revealView removeFromSuperview];
-        self.revealView = nil;
+        [weakSelf.revealView removeFromSuperview];
+        weakSelf.revealView = nil;
     }];
     
     [[[self rac_signalForSelector:@selector(updateConstraints)] filter:^BOOL(id value) {
-        return _contentSnapshotView != nil;
+        return weakSelf.contentSnapshotView != nil;
     }] subscribeNext:^(id x) {
-        [self.contentSnapshotView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[_contentSnapshotView]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_contentSnapshotView)]];
-        [self.contentSnapshotView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[_contentSnapshotView]|" options:0 metrics:nil views:NSDictionaryOfVariableBindings(_contentSnapshotView)]];
+        NSDictionary *bind = @{@"contentSnapshotView":weakSelf.contentSnapshotView};
+        [weakSelf.contentSnapshotView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[contentSnapshotView]|" options:0 metrics:nil views:bind]];
+        [weakSelf.contentSnapshotView addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[contentSnapshotView]|" options:0 metrics:nil views:bind]];
         
-        [super updateConstraints];
+        [weakSelf updateConstraints];
     }];
     
     [self addGestureRecognizer:panGesture];
@@ -113,6 +120,7 @@
 - (void)layoutSubviews
 {
     [super layoutSubviews];
+    canSnapshottingView = true;
     
     self.revealView.frame = (CGRect){
         .origin = CGPointMake(self.allowedDirection == CADRACSwippableCellAllowedDirectionRight ? 0.0f : CGRectGetWidth(self.frame) - CGRectGetWidth(self.revealView.frame), 0.0f),
@@ -178,7 +186,7 @@
 - (BOOL)shouldShowRevealViewForVelocity:(CGPoint)velocity
 {
     BOOL shouldShow = NO,
-         velocityIsBiggerThanOffset = fabsf(velocity.x) > CGRectGetWidth(self.revealView.frame)/2;
+         velocityIsBiggerThanOffset = fabs(velocity.x) > CGRectGetWidth(self.revealView.frame)/2;
     
     switch (self.allowedDirection)
     {
@@ -197,7 +205,7 @@
 - (BOOL)shouldHideRevealViewForVelocity:(CGPoint)velocity
 {
     BOOL shouldHide = NO,
-         velocityIsBiggerThanOffset = fabsf(velocity.x) > CGRectGetWidth(self.revealView.frame)/2;
+         velocityIsBiggerThanOffset = fabs(velocity.x) > CGRectGetWidth(self.revealView.frame)/2;
     
     switch (self.allowedDirection)
     {
@@ -242,7 +250,7 @@
         UIPanGestureRecognizer *gesture = (UIPanGestureRecognizer *)gestureRecognizer;
         CGPoint point = [gesture velocityInView:self];
         
-        if (fabsf(point.x) > fabsf(point.y))
+        if (fabs(point.x) > fabs(point.y))
         {
             return YES;
         }
@@ -260,7 +268,7 @@
 
 - (UIView *)contentSnapshotView
 {
-    if (!_contentSnapshotView)
+    if (!_contentSnapshotView && canSnapshottingView)
     {
         _contentSnapshotView = [self snapshotViewAfterScreenUpdates:NO];
         _contentSnapshotView.backgroundColor = [UIColor firstNonClearBackgroundColorInHierarchyForView:self];

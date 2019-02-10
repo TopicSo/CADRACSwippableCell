@@ -9,7 +9,7 @@
 #import "CADViewController.h"
 
 #import "CADSampleCell.h"
-#import <ReactiveCocoa/RACSignal+Operations.h>
+#import <ReactiveObjC/RACSignal+Operations.h>
 
 static NSString *const kReuseIdentifier = @"ReuseIdentifier";
 

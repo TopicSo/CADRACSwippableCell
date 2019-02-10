@@ -1,1197 +1,431 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>068923FA732D485CBE8406E4</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>113CEE6EDA8AB659942E636C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.release.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>327F098FC97890544AC700D1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.debug.xcconfig</string>
-			<key>path</key>
-			<string>Pods/Target Support Files/Pods/Pods.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7BB3AB37EB494BCEBB02ABB6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>068923FA732D485CBE8406E4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C4128271900153F00279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CADAppDelegate.h</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADAppDelegate.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C4128281900153F00279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CADAppDelegate.m</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADAppDelegate.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C4128291900154000279CF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C4128281900153F00279CF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C41282A1900155000279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CADViewController.h</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADViewController.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C41282B1900155000279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CADViewController.m</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADViewController.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C41282C1900155000279CF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C41282B1900155000279CF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C41282D1900155B00279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>CADViewController.xib</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADViewController.xib</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C41282E1900155B00279CF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C41282D1900155B00279CF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C41282F1900156600279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CADSampleCell.h</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADSampleCell.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C4128301900156600279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>CADSampleCell.m</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADSampleCell.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C4128311900156600279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>file.xib</string>
-			<key>name</key>
-			<string>CADSampleCell.xib</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADSampleCell.xib</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C4128321900156600279CF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C4128301900156600279CF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C4128331900156600279CF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C4128311900156600279CF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C4128341900157400279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>main.m</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/main.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C4128351900157400279CF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C4128341900157400279CF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C4128361900158600279CF9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>CADRACSwippableCell-Prefix.pch</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADRACSwippableCell-Prefix.pch</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C4128371900159900279CF9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8C4128381900159900279CF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8C4128381900159900279CF9</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C4128391900159900279CF9</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8C4128371900159900279CF9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8C41283A190015A100279CF9</key>
-		<dict>
-			<key>fileEncoding</key>
-			<string>4</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>name</key>
-			<string>CADRACSwippableCell-Info.plist</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/CADRACSwippableCell-Info.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8C70F8481900190300269C72</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF9829418FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF9827618FECB46001A3FAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8CF9828818FECB46001A3FAB</string>
-				<string>8CF982A118FECB46001A3FAB</string>
-				<string>8CF9828118FECB46001A3FAB</string>
-				<string>8CF9828018FECB46001A3FAB</string>
-				<string>BCC2B56F0AAAD753A4AEE98C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF9827718FECB46001A3FAB</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>CLASSPREFIX</key>
-				<string>CAD</string>
-				<key>LastUpgradeCheck</key>
-				<string>0510</string>
-				<key>ORGANIZATIONNAME</key>
-				<string>Crows And Dogs</string>
-				<key>TargetAttributes</key>
-				<dict>
-					<key>8CF9829918FECB46001A3FAB</key>
-					<dict>
-						<key>TestTargetID</key>
-						<string>8CF9827E18FECB46001A3FAB</string>
-					</dict>
-				</dict>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>8CF9827A18FECB46001A3FAB</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>8CF9827618FECB46001A3FAB</string>
-			<key>productRefGroup</key>
-			<string>8CF9828018FECB46001A3FAB</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>8CF9827E18FECB46001A3FAB</string>
-				<string>8CF9829918FECB46001A3FAB</string>
-			</array>
-		</dict>
-		<key>8CF9827A18FECB46001A3FAB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8CF982A918FECB46001A3FAB</string>
-				<string>8CF982AA18FECB46001A3FAB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8CF9827B18FECB46001A3FAB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8C4128351900157400279CF9</string>
-				<string>8C4128321900156600279CF9</string>
-				<string>8C41282C1900155000279CF9</string>
-				<string>8C4128291900154000279CF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8CF9827C18FECB46001A3FAB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8CF9828518FECB46001A3FAB</string>
-				<string>8CF9828718FECB46001A3FAB</string>
-				<string>8CF9828318FECB46001A3FAB</string>
-				<string>7BB3AB37EB494BCEBB02ABB6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8CF9827D18FECB46001A3FAB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8C70F8481900190300269C72</string>
-				<string>8C4128331900156600279CF9</string>
-				<string>8C4128391900159900279CF9</string>
-				<string>8C41282E1900155B00279CF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8CF9827E18FECB46001A3FAB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8CF982AB18FECB46001A3FAB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>BDD5401432494994BAFB097F</string>
-				<string>8CF9827B18FECB46001A3FAB</string>
-				<string>8CF9827C18FECB46001A3FAB</string>
-				<string>8CF9827D18FECB46001A3FAB</string>
-				<string>D0344F28793343D890018F67</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CADRACSwippableCell</string>
-			<key>productName</key>
-			<string>CADRACSwippeableCell</string>
-			<key>productReference</key>
-			<string>8CF9827F18FECB46001A3FAB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.application</string>
-		</dict>
-		<key>8CF9827F18FECB46001A3FAB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.application</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CADRACSwippableCell.app</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8CF9828018FECB46001A3FAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8CF9827F18FECB46001A3FAB</string>
-				<string>8CF9829A18FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF9828118FECB46001A3FAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8CF9828218FECB46001A3FAB</string>
-				<string>8CF9828418FECB46001A3FAB</string>
-				<string>8CF9828618FECB46001A3FAB</string>
-				<string>8CF9829B18FECB46001A3FAB</string>
-				<string>068923FA732D485CBE8406E4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF9828218FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8CF9828318FECB46001A3FAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF9828218FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF9828418FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>CoreGraphics.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/CoreGraphics.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8CF9828518FECB46001A3FAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF9828418FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF9828618FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>SDKROOT</string>
-		</dict>
-		<key>8CF9828718FECB46001A3FAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF9828618FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF9828818FECB46001A3FAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8C4128271900153F00279CF9</string>
-				<string>8C4128281900153F00279CF9</string>
-				<string>8C41282A1900155000279CF9</string>
-				<string>8C41282B1900155000279CF9</string>
-				<string>8C41282D1900155B00279CF9</string>
-				<string>8C41282F1900156600279CF9</string>
-				<string>8C4128301900156600279CF9</string>
-				<string>8C4128311900156600279CF9</string>
-				<string>8CF9829418FECB46001A3FAB</string>
-				<string>8CF9828918FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CADRACSwippableCell</string>
-			<key>path</key>
-			<string>CADRACSwippeableCell</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF9828918FECB46001A3FAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8C41283A190015A100279CF9</string>
-				<string>8C4128371900159900279CF9</string>
-				<string>8C4128341900157400279CF9</string>
-				<string>8C4128361900158600279CF9</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF9829418FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>folder.assetcatalog</string>
-			<key>name</key>
-			<string>Images.xcassets</string>
-			<key>path</key>
-			<string>CADRACSwippableCell/Images.xcassets</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>8CF9829618FECB46001A3FAB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8CF982A818FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8CF9829718FECB46001A3FAB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8CF9829C18FECB46001A3FAB</string>
-				<string>8CF9829E18FECB46001A3FAB</string>
-				<string>8CF9829D18FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8CF9829818FECB46001A3FAB</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8CF982A618FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8CF9829918FECB46001A3FAB</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8CF982AE18FECB46001A3FAB</string>
-			<key>buildPhases</key>
-			<array>
-				<string>8CF9829618FECB46001A3FAB</string>
-				<string>8CF9829718FECB46001A3FAB</string>
-				<string>8CF9829818FECB46001A3FAB</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>8CF982A018FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>CADRACSwippableCellTests</string>
-			<key>productName</key>
-			<string>CADRACSwippeableCellTests</string>
-			<key>productReference</key>
-			<string>8CF9829A18FECB46001A3FAB</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle.unit-test</string>
-		</dict>
-		<key>8CF9829A18FECB46001A3FAB</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>CADRACSwippableCellTests.xctest</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8CF9829B18FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>8CF9829C18FECB46001A3FAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF9829B18FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF9829D18FECB46001A3FAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF9828218FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF9829E18FECB46001A3FAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF9828618FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF9829F18FECB46001A3FAB</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>8CF9827718FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>8CF9827E18FECB46001A3FAB</string>
-			<key>remoteInfo</key>
-			<string>CADRACSwippeableCell</string>
-		</dict>
-		<key>8CF982A018FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>target</key>
-			<string>8CF9827E18FECB46001A3FAB</string>
-			<key>targetProxy</key>
-			<string>8CF9829F18FECB46001A3FAB</string>
-		</dict>
-		<key>8CF982A118FECB46001A3FAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8CF982A718FECB46001A3FAB</string>
-				<string>8CF982A218FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>CADRACSwippableCellTests</string>
-			<key>path</key>
-			<string>CADRACSwippeableCellTests</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF982A218FECB46001A3FAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8CF982A318FECB46001A3FAB</string>
-				<string>8CF982A418FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Supporting Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF982A318FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>CADRACSwippableCellTests-Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF982A418FECB46001A3FAB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8CF982A518FECB46001A3FAB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXVariantGroup</string>
-			<key>name</key>
-			<string>InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF982A518FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.strings</string>
-			<key>name</key>
-			<string>en</string>
-			<key>path</key>
-			<string>en.lproj/InfoPlist.strings</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF982A618FECB46001A3FAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF982A418FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF982A718FECB46001A3FAB</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>CADRACSwippableCellTests.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CF982A818FECB46001A3FAB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CF982A718FECB46001A3FAB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8CF982A918FECB46001A3FAB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8CF982AA18FECB46001A3FAB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES_ERROR</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES_ERROR</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES_AGGRESSIVE</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.1</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8CF982AB18FECB46001A3FAB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8CF982AC18FECB46001A3FAB</string>
-				<string>8CF982AD18FECB46001A3FAB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8CF982AC18FECB46001A3FAB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>327F098FC97890544AC700D1</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CADRACSwippableCell/CADRACSwippableCell-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CADRACSwippableCell/CADRACSwippableCell-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>CADRACSwippableCell</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8CF982AD18FECB46001A3FAB</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>113CEE6EDA8AB659942E636C</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
-				<string>AppIcon</string>
-				<key>ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME</key>
-				<string>LaunchImage</string>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CADRACSwippableCell/CADRACSwippableCell-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CADRACSwippableCell/CADRACSwippableCell-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>CADRACSwippableCell</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>app</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>8CF982AE18FECB46001A3FAB</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>8CF982AF18FECB46001A3FAB</string>
-				<string>8CF982B018FECB46001A3FAB</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>8CF982AF18FECB46001A3FAB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CADRACSwippeableCell.app/CADRACSwippeableCell</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CADRACSwippeableCell/CADRACSwippeableCell-Prefix.pch</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>INFOPLIST_FILE</key>
-				<string>CADRACSwippeableCellTests/CADRACSwippableCellTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>CADRACSwippableCellTests</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>8CF982B018FECB46001A3FAB</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>BUNDLE_LOADER</key>
-				<string>$(BUILT_PRODUCTS_DIR)/CADRACSwippeableCell.app/CADRACSwippeableCell</string>
-				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<array>
-					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
-					<string>$(inherited)</string>
-					<string>$(DEVELOPER_FRAMEWORKS_DIR)</string>
-				</array>
-				<key>GCC_PRECOMPILE_PREFIX_HEADER</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>CADRACSwippeableCell/CADRACSwippeableCell-Prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>CADRACSwippeableCellTests/CADRACSwippableCellTests-Info.plist</string>
-				<key>PRODUCT_NAME</key>
-				<string>CADRACSwippableCellTests</string>
-				<key>TEST_HOST</key>
-				<string>$(BUNDLE_LOADER)</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>xctest</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BCC2B56F0AAAD753A4AEE98C</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>327F098FC97890544AC700D1</string>
-				<string>113CEE6EDA8AB659942E636C</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BDD5401432494994BAFB097F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Check Pods Manifest.lock</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
-if [[ $? != 0 ]] ; then
-    cat &lt;&lt; EOM
-error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
-EOM
-    exit 1
-fi
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-		<key>D0344F28793343D890018F67</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>inputPaths</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXShellScriptBuildPhase</string>
-			<key>name</key>
-			<string>Copy Pods Resources</string>
-			<key>outputPaths</key>
-			<array/>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-			<key>shellPath</key>
-			<string>/bin/sh</string>
-			<key>shellScript</key>
-			<string>"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh"
-</string>
-			<key>showEnvVarsInLog</key>
-			<string>0</string>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>8CF9827718FECB46001A3FAB</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C4128291900154000279CF9 /* CADAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4128281900153F00279CF9 /* CADAppDelegate.m */; };
+		8C41282C1900155000279CF9 /* CADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41282B1900155000279CF9 /* CADViewController.m */; };
+		8C41282E1900155B00279CF9 /* CADViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C41282D1900155B00279CF9 /* CADViewController.xib */; };
+		8C4128321900156600279CF9 /* CADSampleCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4128301900156600279CF9 /* CADSampleCell.m */; };
+		8C4128331900156600279CF9 /* CADSampleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8C4128311900156600279CF9 /* CADSampleCell.xib */; };
+		8C4128351900157400279CF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C4128341900157400279CF9 /* main.m */; };
+		8C4128391900159900279CF9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C4128371900159900279CF9 /* InfoPlist.strings */; };
+		8C70F8481900190300269C72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CF9829418FECB46001A3FAB /* Images.xcassets */; };
+		8CF9828318FECB46001A3FAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9828218FECB46001A3FAB /* Foundation.framework */; };
+		8CF9828518FECB46001A3FAB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9828418FECB46001A3FAB /* CoreGraphics.framework */; };
+		8CF9828718FECB46001A3FAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CF9828618FECB46001A3FAB /* UIKit.framework */; };
+		A62E21EEB8EC854E956D4D77 /* Pods_CADRACSwippableCell.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E79DDC9B12765436287CEA12 /* Pods_CADRACSwippableCell.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		10321B3F9EB457305135B73B /* Pods-CADRACSwippableCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CADRACSwippableCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-CADRACSwippableCell/Pods-CADRACSwippableCell.release.xcconfig"; sourceTree = "<group>"; };
+		8C4128271900153F00279CF9 /* CADAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADAppDelegate.h; path = CADRACSwippableCell/CADAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		8C4128281900153F00279CF9 /* CADAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CADAppDelegate.m; path = CADRACSwippableCell/CADAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		8C41282A1900155000279CF9 /* CADViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADViewController.h; path = CADRACSwippableCell/CADViewController.h; sourceTree = SOURCE_ROOT; };
+		8C41282B1900155000279CF9 /* CADViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CADViewController.m; path = CADRACSwippableCell/CADViewController.m; sourceTree = SOURCE_ROOT; };
+		8C41282D1900155B00279CF9 /* CADViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CADViewController.xib; path = CADRACSwippableCell/CADViewController.xib; sourceTree = SOURCE_ROOT; };
+		8C41282F1900156600279CF9 /* CADSampleCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CADSampleCell.h; path = CADRACSwippableCell/CADSampleCell.h; sourceTree = SOURCE_ROOT; };
+		8C4128301900156600279CF9 /* CADSampleCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CADSampleCell.m; path = CADRACSwippableCell/CADSampleCell.m; sourceTree = SOURCE_ROOT; };
+		8C4128311900156600279CF9 /* CADSampleCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = CADSampleCell.xib; path = CADRACSwippableCell/CADSampleCell.xib; sourceTree = SOURCE_ROOT; };
+		8C4128341900157400279CF9 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CADRACSwippableCell/main.m; sourceTree = SOURCE_ROOT; };
+		8C4128361900158600279CF9 /* CADRACSwippableCell-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CADRACSwippableCell-Prefix.pch"; path = "CADRACSwippableCell/CADRACSwippableCell-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8C4128381900159900279CF9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = CADRACSwippableCell/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		8C41283A190015A100279CF9 /* CADRACSwippableCell-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CADRACSwippableCell-Info.plist"; path = "CADRACSwippableCell/CADRACSwippableCell-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8CF9827F18FECB46001A3FAB /* CADRACSwippableCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CADRACSwippableCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CF9828218FECB46001A3FAB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8CF9828418FECB46001A3FAB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8CF9828618FECB46001A3FAB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8CF9829418FECB46001A3FAB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CADRACSwippableCell/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		8CF9829B18FECB46001A3FAB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8CF982A318FECB46001A3FAB /* CADRACSwippableCellTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CADRACSwippableCellTests-Info.plist"; sourceTree = "<group>"; };
+		8CF982A518FECB46001A3FAB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8CF982A718FECB46001A3FAB /* CADRACSwippableCellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CADRACSwippableCellTests.m; sourceTree = "<group>"; };
+		BDAADBD25910721E1889A950 /* Pods-CADRACSwippableCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CADRACSwippableCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CADRACSwippableCell/Pods-CADRACSwippableCell.debug.xcconfig"; sourceTree = "<group>"; };
+		E79DDC9B12765436287CEA12 /* Pods_CADRACSwippableCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CADRACSwippableCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CF9827C18FECB46001A3FAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CF9828518FECB46001A3FAB /* CoreGraphics.framework in Frameworks */,
+				8CF9828718FECB46001A3FAB /* UIKit.framework in Frameworks */,
+				8CF9828318FECB46001A3FAB /* Foundation.framework in Frameworks */,
+				A62E21EEB8EC854E956D4D77 /* Pods_CADRACSwippableCell.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CF9827618FECB46001A3FAB = {
+			isa = PBXGroup;
+			children = (
+				8CF9828818FECB46001A3FAB /* CADRACSwippableCell */,
+				8CF982A118FECB46001A3FAB /* CADRACSwippableCellTests */,
+				8CF9828118FECB46001A3FAB /* Frameworks */,
+				8CF9828018FECB46001A3FAB /* Products */,
+				BCC2B56F0AAAD753A4AEE98C /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		8CF9828018FECB46001A3FAB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8CF9827F18FECB46001A3FAB /* CADRACSwippableCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8CF9828118FECB46001A3FAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CF9828218FECB46001A3FAB /* Foundation.framework */,
+				8CF9828418FECB46001A3FAB /* CoreGraphics.framework */,
+				8CF9828618FECB46001A3FAB /* UIKit.framework */,
+				8CF9829B18FECB46001A3FAB /* XCTest.framework */,
+				E79DDC9B12765436287CEA12 /* Pods_CADRACSwippableCell.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8CF9828818FECB46001A3FAB /* CADRACSwippableCell */ = {
+			isa = PBXGroup;
+			children = (
+				8C4128271900153F00279CF9 /* CADAppDelegate.h */,
+				8C4128281900153F00279CF9 /* CADAppDelegate.m */,
+				8C41282A1900155000279CF9 /* CADViewController.h */,
+				8C41282B1900155000279CF9 /* CADViewController.m */,
+				8C41282D1900155B00279CF9 /* CADViewController.xib */,
+				8C41282F1900156600279CF9 /* CADSampleCell.h */,
+				8C4128301900156600279CF9 /* CADSampleCell.m */,
+				8C4128311900156600279CF9 /* CADSampleCell.xib */,
+				8CF9829418FECB46001A3FAB /* Images.xcassets */,
+				8CF9828918FECB46001A3FAB /* Supporting Files */,
+			);
+			name = CADRACSwippableCell;
+			path = CADRACSwippeableCell;
+			sourceTree = "<group>";
+		};
+		8CF9828918FECB46001A3FAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C41283A190015A100279CF9 /* CADRACSwippableCell-Info.plist */,
+				8C4128371900159900279CF9 /* InfoPlist.strings */,
+				8C4128341900157400279CF9 /* main.m */,
+				8C4128361900158600279CF9 /* CADRACSwippableCell-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8CF982A118FECB46001A3FAB /* CADRACSwippableCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				8CF982A718FECB46001A3FAB /* CADRACSwippableCellTests.m */,
+				8CF982A218FECB46001A3FAB /* Supporting Files */,
+			);
+			name = CADRACSwippableCellTests;
+			path = CADRACSwippeableCellTests;
+			sourceTree = "<group>";
+		};
+		8CF982A218FECB46001A3FAB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8CF982A318FECB46001A3FAB /* CADRACSwippableCellTests-Info.plist */,
+				8CF982A418FECB46001A3FAB /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BCC2B56F0AAAD753A4AEE98C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BDAADBD25910721E1889A950 /* Pods-CADRACSwippableCell.debug.xcconfig */,
+				10321B3F9EB457305135B73B /* Pods-CADRACSwippableCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8CF9827E18FECB46001A3FAB /* CADRACSwippableCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF982AB18FECB46001A3FAB /* Build configuration list for PBXNativeTarget "CADRACSwippableCell" */;
+			buildPhases = (
+				BDD5401432494994BAFB097F /* [CP] Check Pods Manifest.lock */,
+				8CF9827B18FECB46001A3FAB /* Sources */,
+				8CF9827C18FECB46001A3FAB /* Frameworks */,
+				8CF9827D18FECB46001A3FAB /* Resources */,
+				D0344F28793343D890018F67 /* [CP] Copy Pods Resources */,
+				72C2E44A2D03868AB42D085C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CADRACSwippableCell;
+			productName = CADRACSwippeableCell;
+			productReference = 8CF9827F18FECB46001A3FAB /* CADRACSwippableCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8CF9827718FECB46001A3FAB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CAD;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Crows And Dogs";
+				TargetAttributes = {
+					8CF9827E18FECB46001A3FAB = {
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 8CF9827A18FECB46001A3FAB /* Build configuration list for PBXProject "CADRACSwippableCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8CF9827618FECB46001A3FAB;
+			productRefGroup = 8CF9828018FECB46001A3FAB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CF9827E18FECB46001A3FAB /* CADRACSwippableCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CF9827D18FECB46001A3FAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C70F8481900190300269C72 /* Images.xcassets in Resources */,
+				8C4128331900156600279CF9 /* CADSampleCell.xib in Resources */,
+				8C4128391900159900279CF9 /* InfoPlist.strings in Resources */,
+				8C41282E1900155B00279CF9 /* CADViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72C2E44A2D03868AB42D085C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CADRACSwippableCell/Pods-CADRACSwippableCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDD5401432494994BAFB097F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0344F28793343D890018F67 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CADRACSwippableCell/Pods-CADRACSwippableCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CF9827B18FECB46001A3FAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C4128351900157400279CF9 /* main.m in Sources */,
+				8C4128321900156600279CF9 /* CADSampleCell.m in Sources */,
+				8C41282C1900155000279CF9 /* CADViewController.m in Sources */,
+				8C4128291900154000279CF9 /* CADAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8C4128371900159900279CF9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C4128381900159900279CF9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8CF982A418FECB46001A3FAB /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8CF982A518FECB46001A3FAB /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8CF982A918FECB46001A3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8CF982AA18FECB46001A3FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8CF982AC18FECB46001A3FAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BDAADBD25910721E1889A950 /* Pods-CADRACSwippableCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CADRACSwippableCell/CADRACSwippableCell-Prefix.pch";
+				INFOPLIST_FILE = "CADRACSwippableCell/CADRACSwippableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CADRACSwippableCell;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8CF982AD18FECB46001A3FAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10321B3F9EB457305135B73B /* Pods-CADRACSwippableCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CADRACSwippableCell/CADRACSwippableCell-Prefix.pch";
+				INFOPLIST_FILE = "CADRACSwippableCell/CADRACSwippableCell-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = CADRACSwippableCell;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CF9827A18FECB46001A3FAB /* Build configuration list for PBXProject "CADRACSwippableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF982A918FECB46001A3FAB /* Debug */,
+				8CF982AA18FECB46001A3FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF982AB18FECB46001A3FAB /* Build configuration list for PBXNativeTarget "CADRACSwippableCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CF982AC18FECB46001A3FAB /* Debug */,
+				8CF982AD18FECB46001A3FAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8CF9827718FECB46001A3FAB /* Project object */;
+}
